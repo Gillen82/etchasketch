@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-header {
+	padding: 20px 0;
+	text-align: center;
+	background-color: #860000;
+	color: #f0c53a;
+}
+
+.container {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.board {
+	background-color: #fff;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #ccc;
+	display: grid;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cell {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.cell:hover {
+	background-color: #ccc;
+}
+
+.controls {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.btn {
+	padding: 7px;
+	background-color: #f0c53a;
+	color: #860000;
+	border: 1px solid #860000;
+	transition: all 0.2s ease;
+}
+
+.btn:hover {
+	background-color: #860000;
+	color: #f0c53a;
+}
